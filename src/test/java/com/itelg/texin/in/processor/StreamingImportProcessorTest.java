@@ -15,10 +15,11 @@ public class StreamingImportProcessorTest
 {
     private class ImportProcessor extends StreamingImportProcessor
     {
-        int rows = 0;
+        protected int rows = 0;
 
         public ImportProcessor()
         {
+            // empty constructor
         }
 
         @Override

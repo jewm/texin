@@ -20,6 +20,7 @@ public class SimpleImportProcessorTest
     {
         public ImportProcessor()
         {
+            // empty constructor
         }
 
         @Override
@@ -34,12 +35,13 @@ public class SimpleImportProcessorTest
 
     private class TestObject
     {
-        public TestObject()
-        {
-        }
-
         private String column1;
         private int rowId;
+
+        public TestObject()
+        {
+            // empty constructor
+        }
 
         public String getColumn1()
         {
