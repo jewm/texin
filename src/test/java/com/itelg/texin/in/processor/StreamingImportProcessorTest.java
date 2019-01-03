@@ -17,11 +17,6 @@ public class StreamingImportProcessorTest
     {
         protected int rows = 0;
 
-        public ImportProcessor()
-        {
-            // empty constructor
-        }
-
         @Override
         public void process(Row row)
         {

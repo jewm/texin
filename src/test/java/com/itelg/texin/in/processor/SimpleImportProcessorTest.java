@@ -18,11 +18,6 @@ public class SimpleImportProcessorTest
 {
     private class ImportProcessor extends SimpleImportProcessor<TestObject>
     {
-        public ImportProcessor()
-        {
-            // empty constructor
-        }
-
         @Override
         public void mapRow(Row row)
         {
@@ -37,11 +32,6 @@ public class SimpleImportProcessorTest
     {
         private String column1;
         private int rowId;
-
-        public TestObject()
-        {
-            // empty constructor
-        }
 
         public String getColumn1()
         {
